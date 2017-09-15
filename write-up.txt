@@ -1,0 +1,6 @@
+Yang sudah dipelajari pada tutorial kali ini adalah:
+-kegunaan anotasi @controller menandakan bahwa page tersebut adalah sebuah Controller, yang  akan merespond HTTP Requests dan mengembalikan View, 
+-@RequestMapping berguna untuk memanggil method didalam path saat dilakukan request HTTP
+-@RequestMapping dapat berisikan 2 value
+-@PathVariable berguna untuk passing suatu data dari URL
+-cara kerja antara controller dengan template, yakni controller akan mencari path yang sesuai kemudian memanggil method didalamnya, terdapat model.attribute yang berfungsi untuk mengembalikan variabel yang ada pada controller ke variabel yang ada pada view, setelah itu controller akan mengembalikan view ke template sesuai dengan template yang tersedia
